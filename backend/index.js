@@ -8,7 +8,7 @@ import cors from "cors";
 import { app, server } from "./socket/socket.js";
 dotenv.config({});
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 // middleware
 app.use(express.urlencoded({ extended: true }));
